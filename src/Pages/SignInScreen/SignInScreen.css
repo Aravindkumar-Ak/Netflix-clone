@@ -1,0 +1,59 @@
+.signin_page{
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+}
+
+.signin_page>form{
+  display: grid;
+  
+}
+.signin_page>form>h2{
+font-size: 1.5rem;
+margin-bottom: 15px;
+text-align: left;
+margin-top: 25px;
+}
+.signin_page>form>h4{
+    margin-top: 25px;
+    font-size: .9rem;
+    font-weight:500;
+
+}
+.signup__color{
+    color: gray;
+}
+.signup__link:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.signin_page>form>input{
+    margin-bottom: 32px;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+font-size: 1rem;
+cursor: pointer;
+border-radius: .3rem;
+
+}
+
+.signin_page button{
+padding: .5rem 1rem;
+font-size: 1rem;
+font-weight: 600;
+background-color: #de4444;
+color: #fff;
+border: 0;
+outline: 0;
+border-radius: .3rem;
+cursor: pointer;
+}

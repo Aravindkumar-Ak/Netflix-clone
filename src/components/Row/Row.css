@@ -1,0 +1,53 @@
+.row{
+
+margin-left: 20px;
+color: #fff;
+padding: 20px;
+}
+.row .title{
+    margin-left: 17px;
+}
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 0.475rem;
+    }
+::-webkit-scrollbar-thumb{
+    background-color: #db0001;
+    border-radius: 0.675rem;
+}
+::-webkit-scrollbar-track{
+    border-radius: 0.5rem;
+    background-color: #2a2121;
+}
+.row__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    cursor: pointer;
+}
+.row__poster{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right:10px;
+    width: 100%;
+    transition: all 0.5s ease;
+    border-radius: .3rem;
+}
+
+.row__poster:hover{
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.row__posterLarge{
+    max-height: 250px;
+    object-fit: contain;
+    
+}
+.row__posterLarge:hover{
+    transform: scale(1.09);
+    opacity: 0.9;
+}

@@ -1,0 +1,86 @@
+.profileScreen{
+    height: 100vh;
+   color: #fff;
+   
+}
+.profile_contents{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+   display: flex;
+   flex-direction: column;
+   padding-top: 8%;
+}
+.profile_contents>h1{
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    border-bottom: 3px solid gray;
+}
+
+.profile_info{
+    display: flex;
+ 
+}
+.profile_detail{
+    color: #fff;
+    flex: 1;
+    margin-left: 25px;
+}
+.profile_detail>h3{
+    background-color: gray;
+    padding: 15px;
+}
+.profile_info>img{
+   height: 100px;
+    
+}
+.profile__plans .signout_btn{
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border: 0;
+    outline: 0;
+    border-radius: .3rem;
+    background-color: #de4444;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 35px;
+    cursor: pointer;
+  
+}
+.profile__plans{
+  
+    margin-top: 20px;
+   
+}
+.profile__plans>h1{
+    border-bottom: 1px solid gray;
+}
+
+.Plans_info{
+    display: flex;
+    justify-content:space-between ;
+    color: #eeebeb;
+    padding: 12px;
+ 
+}
+
+
+.Subscribe__btn{
+padding: .5rem 1rem;
+background-color:#fff;
+border: 0;
+outline: 0;
+font-size: .9rem;
+font-weight: 300;
+}
+.subscribed{
+    padding: .5rem 1rem;
+background-color:gray;
+border: 0;
+outline: 0;
+font-size: .9rem;
+font-weight: 300;
+}
